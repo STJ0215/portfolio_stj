@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.after::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/*--------------------*/
+
+
+.wrap {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+/*--------------------*/
+
+
+.wrap > .con01 {
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 300px;
+    padding: 50px;
+}
+
+.wrap > .con01 > h1 {
+    color: gray;
+    position: absolute;
+    top: 50px;
+    left: 45%;
+}
+
+.wrap > .con01 > h1::before {
+    width: 50px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin: 5px 0;
+}
+
+.wrap > .con01 > h1::after {
+    width: 50px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content:"";
+    margin: 5px 0;
+}
+
+.wrap > .con01 > .img01 {
+    width: 350px;
+    height: 550px;
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+    border: 5px solid peachpuff;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.wrap > .con01 > .img02 {
+    width: 300px;
+    height: 450px;
+    background: url("../img/bg2.jpg") no-repeat;
+    background-size: cover;
+    border: 5px solid lightblue;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.wrap > .con01 > .img03 {
+    width: 300px;
+    height: 400px;
+    background: url("../img/bg3.jpg") no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(180, 230, 230);
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+
+/*--------------------*/
+
+
+.wrap > .con02 {
+    height: 150px;
+    background: rgb(180, 230, 230);
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+
+.wrap > .con02 > h2 {
+    position: relative;
+}
+
+.wrap > .con02 > h2::after {
+    width: 130px;
+    height: 3px;
+    background: gray;
+    text-align: center;
+    display: block;
+    content: "";
+    margin: 5px auto;
+}
+
+.wrap > .con02 > p {
+    width: 50%;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+
+/*--------------------*/
+
+
+.wrap > .con03 {
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.wrap > .con03 > h2::after {
+    width: 300px;
+    height: 10px;
+    background: peachpuff;
+    display: block;
+    content: "";
+    margin: 20px 0;
+}
+
+.wrap > .con03 > p {
+    color: gray;
+}
+
+.wrap > .con03 > .p1 {
+    width: 30%;
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 30%;
+}
+
+.wrap > .con03 > .p2 {
+    width: 40%;
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 62%;
+}
+
+
+/*--------------------*/
+
+
+.wrap > .con04 > div {
+    width: 32%;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgb(25, 25, 25);
+    position: relative;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 400px;
+}
+
+.wrap > .con04 > div:last-child {
+    margin-right: 0;
+}
+
+.wrap > .con04 > .img04 {
+    background: url("../img/bg4.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap > .con04 > .img05 {
+    background: url("../img/bg5.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap > .con04 > .img06 {
+    background: url("../img/bg6.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap > .con04 > div > div {
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 30px 25px;
+}
+
+.wrap > .con04 > .img04 > div {
+    background: seashell;
+}
+
+.wrap > .con04 > .img05 > div {
+    background: lightcyan;
+}
+
+.wrap > .con04 > .img06 > div {
+    background: rgb(180, 230, 230);
+}
+
+.wrap > .con04 > div > div > h2 {
+    position: relative;
+}
+
+.wrap > .con04 > div > div > h2::before {
+    width: 80px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin-bottom: 5px;
+}
+
+.wrap > .con04 > div > div > h2::after {
+    width: 80px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin-top: 5px;
+}
+
+.wrap > .con04 > div > div > p {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+
+/*--------------------*/
+
+
+.wrap > .con05 {
+    width: 100%;
+    height: 500px;
+}
+
+.wrap > .con05 > div {
+    width: 23.5%;
+    height: 280px;
+    float: left;
+    margin-right: 2%;
+}
+
+.wrap > .con05 > div:last-child {
+    margin-right: 0;
+}
+
+.wrap > .con05 > .img07 {
+    background: url("../img/bg7.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap > .con05 > .img08 {
+    background: url("../img/bg8.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap > .con05 > .img09 {
+    background: url("../img/bg9.jpg") no-repeat;
+    background-size: cover;
+}
+
+.wrap > .con05 > .box04 {
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.wrap > .con05 > .box04 > h2 {
+    position: relative;
+    margin: 10px 0;
+}
+
+.wrap > .con05 > .box04 > h2::before {
+    width: 80px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin: 5px 0;
+}
+
+.wrap > .con05 > .box04 > h2::after {
+    width: 80px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin: 5px 0;
+}
+
+.wrap > .con05 > .box04 > p {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+
+/*--------------------*/
+
+
+.con06 {
+    width: 100%;
+    height: 400px;
+}
+
+.con06 > .box05 {
+    width: 50%;
+    height: 50%;
+    border-left: 10px solid skyblue;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px 80px;
+}
+
+.con06 > .box05 > h2::after {
+    width: 70px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin-top: 5px;
+}
+
+.con06 > .box05 > p {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+
+/*--------------------*/
+
+
+.con07 {
+    height: 450px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.con07 > .img10 {
+    width: 50%;
+    height: 100%;
+    background: url("../img/bg10.jpg") no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.con07 > .box06 {
+    width: 50%;
+    height: 350px;
+    background: seashell;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    z-index: 2;
+    padding: 50px;
+}
+
+.con07 > .box06 > h2 {
+    position: relative;
+}
+
+.con07 > .box06 > h2::before {
+    width: 80px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin-bottom: 5px;
+}
+
+.con07 > .box06 > h2::after {
+    width: 80px;
+    height: 3px;
+    background: gray;
+    display: block;
+    content: "";
+    margin-top: 5px;
+    
+}
+
+.con07 > .box06 > p {
+    margin-top: 50px;
+}
+
+
+/*--------------------*/
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background: #505050;
+}
+
+.footer > p {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}

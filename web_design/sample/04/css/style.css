@@ -1,0 +1,178 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+ul, ol, li {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.after::after {
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.headerWrap {
+    width:100%;
+   
+}
+
+
+.menu {
+    width:100%;
+    position: fixed;
+    z-index: 3;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    background: rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.menu > ul > li {
+    width:20%;
+    float:left;
+    text-align: center;
+}
+
+.menu > ul > li > a {
+    display:block;
+    padding:15px;
+    font-weight: bold;
+}
+
+.visual {
+    height:700px;
+    background:lavender;
+    font-size:60px;
+    text-align: center;
+    line-height: 700px;
+}
+
+.contents {
+    width:1240px;
+    margin:0 auto;  
+    padding:100px 0;
+}
+
+.contents > div {
+    margin-bottom:100px;
+}
+
+.contents > div > h2 {
+    border-left:5px solid #ddd;
+    padding-left:10px;
+    margin:20px 0;
+}
+
+.contents > .con01 > div {
+    width:23.5%;
+    height:400px;
+    background:lavender;
+    float:left; 
+    margin-right:2%;
+    position: relative;
+}
+
+.contents > .con01 > div:last-child {
+    margin-right:0;
+}
+
+.contents > .con01 > div > p {
+    background:#ddd;
+    width:200px;
+    height:100px;
+    padding:15px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom:0;
+    right:0;
+    text-align: center;
+}
+
+
+.contents > .con02 > div {
+    width:32%;
+    height:400px;
+    background:lavender;
+    float:left; 
+    margin-right:2%;
+    position: relative;
+}
+
+.contents > .con02 > div:last-child {
+    margin-right:0;
+}
+
+.contents > .con02 > div > .box01 {
+    width:200px;
+    height:200px;
+    background:#fff;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.contents > .con03 > div {
+    width:23.5%;
+    height:400px;
+    background:lavender;
+    float:left; 
+    margin-right:2%;
+    position: relative;
+}
+
+.contents > .con03 > div:last-child {
+    margin-right:0;
+}
+
+.contents > .con03 > div > .box02 {
+    width:200px;
+    height:100px;
+    background:#ddd;
+    position: absolute;
+    bottom:0;
+    left:20px;
+    
+}
+
+.contents > .con04 > div {
+    width:32%;
+    height:400px;
+    background:lavender;
+    float:left; 
+    margin-right:2%;
+    position: relative;
+}
+
+.contents > .con04 > div:last-child {
+    margin-right:0;
+}
+
+.contents > .con04 > div > span {
+    background:#fff;
+    padding:15px;
+    box-sizing: border-box;
+    width:200px;
+    height:100px;
+    text-align: center;
+    box-shadow: 3px 3px 7px #555;
+    position: absolute;
+    top:40px;
+    left:40px;
+    
+}
+
+.footer {
+    height:200px;
+    background:lavender;
+    font-size:60px;
+    text-align: center;
+    line-height: 200px;
+}
